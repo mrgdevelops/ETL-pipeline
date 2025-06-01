@@ -1,0 +1,77 @@
+id_viaje,fecha_viaje,hora_salida_programada,hora_llegada_real,origen_ciudad,destino_ciudad,pais_operacion,numero_viajeros,distancia_km,tiempo_viaje_minutos,tarifa_media_por_viajero_eur,marca_autocar,modelo_autocar,matricula_autocar,tipo_servicio,incidencia_averia,descripcion_averia,costo_averia_eur,puntuacion_cliente,combustible_consumido_litros,id_conductor,edad_conductor,retraso_minutos,velocidad_media_kmh
+a1b2c3d4-e5f6-7890-1234-567890abcdef,2024-03-15,08:00,11:35,Madrid,Valencia,España,45,357.2,215,25.5,Mercedes-Benz,Tourismo,1234ABC,Interurbano,False,Sin Avería,0.0,4,85.3,COND001,48,0,99.68372093023255
+f0e9d8c7-b6a5-4321-fedc-ba9876543210,2024-03-16,10:30,13:40,Barcelona,Zaragoza,España,38,300.5,190,20.0,Scania,Irizar Pb,5678DEF,Interurbano,False,Sin Avería,0.0,5,70.0,COND002,35,0,94.89473684210527
+1a2b3c4d-5e6f-7890-abcd-ef0123456789,2024-03-17,09:00,18:00,Lisboa,Sevilla,Portugal,22,460.8,540,40.0,Volvo,9700,9012GHI,Internacional,True,Fallo en motor,1200.5,2,110.5,COND003,52,0,51.2
+2c3d4e5f-6a7b-8901-cdef-0123456789ab,2024-03-18,14:00,16:45,Casablanca,Rabat,Marruecos,0,95.3,165,10.0,King Long,6127,3456JKL,Urbano,False,Sin Avería,0.0,5,20.0,COND004,40,0,34.654545454545456
+3d4e5f6a-7b8c-9012-def0-1234567890bc,2024-03-19,07:00,10:10,Madrid,Barcelona,Desconocido,50,620.0,190,45.0,Setra,N/A,7890MNO,Interurbano,False,Sin Avería,0.0,4,150.0,COND001,48,0,195.78947368421055
+4e5f6a7b-8c9d-0123-ef01-2345678901cd,2024-03-20,11:00,11:00,Porto,Lisboa,Portugal,30,313.9,0,22.5,Man,Lion'S Coach,1122PQR,Interurbano,True,Retraso grave por tráfico,0.0,1,75.0,COND005,55,0,0.0
+5f6a7b8c-9d0e-1234-f012-3456789012de,2024-03-21,06:00,08:30,Tanger,Fez,Marruecos,33,200.0,150,18.0,Yutong,Zk6122H9,3344STU,Interurbano,False,Sin Avería,0.0,5,50.0,COND006,39,0,80.0
+6a7b8c9d-0e1f-2345-0123-4567890123ef,2024-03-22,13:00,15:15,Sevilla,Málaga,ESP,40,210.0,135,15.0,Irizar,I6,5566VWX,Interurbano,False,Sin Avería,0.0,4,55.0,COND002,35,0,93.33333333333333
+7b8c9d0e-1f2a-3456-1234-5678901234fg,2024-03-23,16:00,20:00,Faro,Sevilla,Portugal,28,190.0,240,28.0,Mercedes,Citaro,7788YZA,Internacional,True,Problema con aire acondicionado,300.0,3,45.0,COND003,52,0,47.5
+8c9d0e1f-2a3b-4567-2345-6789012345gh,2024-03-24,09:30,11:00,Marrakech,Essaouira,Marruecos,15,175.0,90,12.0,Iveco,Daily,9900BCD,Urbano,False,Sin Avería,0.0,4,30.0,COND004,40,0,116.66666666666667
+9d0e1f2a-3b4c-5678-3456-7890123456hi,2024-03-25,08:00,12:00,Valencia,Alicante,España,42,170.0,240,18.0,Mercedes-Benz,Citaro,1212EFG,Interurbano,False,Sin Avería,0.0,3,40.0,COND007,30,0,42.5
+a0e1f2a3-b4c5-6789-4567-8901234567ij,2024-03-26,09:00,11:30,Braga,Porto,Portugal,25,55.0,150,8.0,Scania,Citywide,3434HIJ,Urbano,False,Sin Avería,0.0,5,15.0,COND005,55,0,22.0
+b1f2a3b4-c5d6-7890-5678-9012345678jk,2024-03-27,10:00,14:00,Agadir,Marrakech,Marruecos,35,250.0,240,20.0,Iveco,Evadys,5656KLM,Interurbano,True,Pinchazo de rueda,150.0,4,60.0,COND008,43,0,62.5
+c2f3b4c5-d6e7-8901-6789-0123456789kl,2024-03-28,12:00,13:30,Granada,Córdoba,España,30,160.0,90,14.0,Setra,S 515 Hd,7878NNO,Interurbano,False,Sin Avería,0.0,5,35.0,COND009,50,0,106.66666666666667
+d3f4c5d6-e7f8-9012-7890-1234567890lm,2024-03-29,07:30,11:45,Lisboa,Oporto,Portugal,40,313.9,255,22.0,Man,Lion'S Coach,9090PQR,Interurbano,False,Sin Avería,0.0,4,70.0,COND005,55,0,73.85882352941177
+e4f5d6e7-f8a9-0123-8901-2345678901mn,2024-03-30,15:00,17:30,Tetuán,Ceuta,Marruecos,20,60.0,150,7.5,King Long,6127,1010STU,Urbano,False,Sin Avería,0.0,5,18.0,COND004,40,0,24.0
+f5e6d7e8-f9a0-1234-9012-3456789012no,2024-03-31,08:30,13:00,Barcelona,Marsella,Desconocido,30,500.0,270,55.0,Volvo,9700,2323VWX,Internacional,True,Avería en frenos,2500.0,2,120.0,COND010,46,0,111.11111111111111
+0a1b2c3d-e4f5-6789-abcd-ef01234567op,2024-04-01,11:00,12:15,Málaga,Marbella,España,18,60.0,75,9.0,Irizar,I4,4545YZA,Urbano,False,Sin Avería,0.0,5,16.0,COND009,50,0,48.0
+1b2c3d4e-f5a6-7890-bcde-f012345678pq,2024-04-02,07:00,11:00,Coimbra,Lisboa,Portugal,32,200.0,240,17.5,Man,Lion'S Intercity,6767BCD,Interurbano,False,Sin Avería,0.0,4,50.0,COND005,55,0,50.0
+2c3d4e5f-a6b7-8901-cdef-0123456789qr,2024-04-03,10:00,12:00,Rabat,Meknes,Marruecos,25,140.0,120,11.0,Yutong,Zk6108H,8989EFG,Interurbano,False,Sin Avería,0.0,5,30.0,COND006,39,0,70.0
+3d4e5f6a-b7c8-9012-def0-1234567890rs,2024-04-04,14:00,16:30,Murcia,Cartagena,España,28,50.0,150,6.0,Mercedes-Benz,Citaro,0101HIJ,Urbano,False,Sin Avería,0.0,4,12.0,COND007,30,0,20.0
+4e5f6a7b-c8d9-0123-ef01-2345678901st,2024-04-05,08:00,11:00,Lisboa,Évora,Portugal,20,130.0,180,12.0,Setra,S 415 Ul,2323KLM,Interurbano,False,Sin Avería,0.0,5,30.0,COND003,52,0,43.333333333333336
+5f6a7b8c-d9e0-1234-f012-3456789012tu,2024-04-06,09:00,11:45,Oujda,Nador,Marruecos,19,150.0,165,10.0,Iveco,Busway,4545NNO,Interurbano,False,Sin Avería,0.0,4,38.0,COND008,43,0,54.54545454545455
+6a7b8c9d-e0f1-2345-0123-4567890123uv,2024-04-07,13:00,15:00,Vigo,Santiago De Compostela,España,33,90.0,120,11.0,Scania,Touring,6767PQR,Interurbano,False,Sin Avería,0.0,5,25.0,COND001,48,0,45.0
+7b8c9d0e-f1a2-3456-1234-5678901234vw,2024-04-08,16:00,19:00,Faro,Lisboa,Portugal,27,280.0,180,21.0,Man,Lion'S Coach,8989STU,Interurbano,False,Sin Avería,0.0,4,65.0,COND005,55,0,93.33333333333333
+8c9d0e1f-a2b3-4567-2345-6789012345wx,2024-04-09,07:00,11:00,Casablanca,Fez,Marruecos,40,290.0,240,25.0,Mercedes-Benz,Travego,0101VWX,Interurbano,True,Fallo en caja de cambios,3500.0,2,70.0,COND006,39,0,72.5
+9d0e1f2a-b3c4-5678-3456-7890123456xy,2024-04-10,09:00,10:30,Oviedo,Gijón,España,22,30.0,90,5.0,Irizar,I3,2323YZA,Urbano,False,Sin Avería,0.0,5,8.0,COND002,35,0,20.0
+a0e1f2a3-c4d5-6789-4567-8901234567yz,2024-04-11,11:30,15:00,Lisboa,Madrid,Portugal,30,620.0,210,50.0,Volvo,9900,4545BCD,Internacional,False,Sin Avería,0.0,4,140.0,COND010,46,0,177.14285714285714
+b1e2a3b4-d5e6-7890-5678-9012345678za,2024-04-12,08:00,10:45,Fez,Casablanca,Marruecos,37,290.0,165,25.0,King Long,6127,6767EFG,Interurbano,False,Sin Avería,0.0,5,70.0,COND006,39,0,105.45454545454545
+c2e3b4c5-e6f7-8901-6789-0123456789ab,2024-04-13,10:00,14:00,Sevilla,Granada,España,45,260.0,240,20.0,Setra,S 516 Hd/2,8989HIJ,Interurbano,False,Sin Avería,0.0,4,60.0,COND009,50,0,65.0
+d3e4c5d6-f7a8-9012-7890-1234567890bc,2024-04-14,15:00,17:30,Faro,Lisboa,Portugal,28,280.0,150,21.0,Man,Lion'S Coach,0101KLM,Interurbano,False,Sin Avería,0.0,3,65.0,COND005,55,0,112.0
+e4e5d6e7-a8b9-0123-8901-2345678901cd,2024-04-15,09:00,12:00,Tanger,Larache,Marruecos,22,100.0,180,9.0,Yutong,Zk6122H9,2323NNO,Urbano,False,Sin Avería,0.0,5,25.0,COND006,39,0,33.333333333333336
+f5e6d7e8-b9c0-1234-9012-3456789012de,2024-04-16,10:00,12:45,Madrid,Toledo,España,35,75.0,165,10.0,Irizar,I6S,4545PQR,Interurbano,False,Sin Avería,0.0,4,20.0,COND001,48,0,27.272727272727273
+0a1e2b3c-c0d1-2345-abcd-ef01234567ef,2024-04-17,07:00,11:00,Lisboa,Faro,Portugal,30,280.0,240,21.0,Mercedes-Benz,Tourismo,6767STU,Interurbano,False,Sin Avería,0.0,5,65.0,COND005,55,0,70.0
+1b2e3c4d-d1e2-3456-bcde-f012345678fg,2024-04-18,13:00,15:30,El Jadida,Casablanca,Marruecos,25,100.0,150,8.0,Iveco,Daily,8989VWX,Urbano,False,Sin Avería,0.0,4,20.0,COND004,40,0,40.0
+2c3e4d5e-e2f3-4567-cdef-0123456789gh,2024-04-19,09:30,14:00,Sevilla,Huelva,España,38,90.0,270,10.0,Scania,Interlink,0101YZA,Interurbano,True,Retraso por obras en carretera,0.0,2,22.0,COND002,35,0,20.0
+3d4e5f6a-f3a4-5678-def0-1234567890hi,2024-04-20,08:00,12:00,Porto,Madrid,Portugal,29,550.0,240,45.0,Volvo,9700,2323BCD,Internacional,False,Sin Avería,0.0,4,125.0,COND010,46,0,137.5
+4e5f6a7b-a4b5-6789-ef01-2345678901ij,2024-04-21,10:00,13:00,Casablanca,Tanger,Marruecos,36,300.0,180,28.0,King Long,6127,4545EFG,Interurbano,False,Sin Avería,0.0,5,70.0,COND006,39,0,100.0
+5f6a7b8c-b5c6-7890-f012-3456789012jk,2024-04-22,11:00,12:30,Alicante,Elche,España,20,25.0,90,4.0,Iveco,Daily,6767HIJ,Urbano,False,Sin Avería,0.0,5,6.0,COND007,30,0,16.666666666666668
+6a7b8c9d-c6d7-8901-0123-4567890123kl,2024-04-23,06:00,09:00,Coimbra,Porto,Portugal,28,120.0,180,10.0,Man,Lion'S Intercity,8989KLM,Interurbano,False,Sin Avería,0.0,4,28.0,COND005,55,0,40.0
+7b8c9d0e-d7e8-9012-1234-5678901234lm,2024-04-24,14:00,16:30,Essaouira,Marrakech,Marruecos,17,175.0,150,12.0,King Long,6127,0101NNO,Interurbano,False,Sin Avería,0.0,5,40.0,COND004,40,0,70.0
+8c9d0e1f-e8f9-0123-2345-6789012345mn,2024-04-25,09:00,12:00,Barcelona,Girona,España,30,100.0,180,12.0,Scania,Interlink,2323PQR,Interurbano,False,Sin Avería,0.0,4,25.0,COND001,48,0,33.333333333333336
+9d0e1f2a-f9a0-1234-3456-7890123456no,2024-04-26,10:30,14:00,Madrid,Lisboa,España,35,620.0,210,50.0,Volvo,9900,4545STU,Internacional,False,Sin Avería,0.0,5,140.0,COND010,46,0,177.14285714285714
+a0e1f2a3-a0b1-2345-4567-8901234567op,2024-04-27,07:00,10:00,Rabat,Casablanca,Marruecos,40,90.0,180,8.0,King Long,6127,6767VWX,Urbano,False,Sin Avería,0.0,4,20.0,COND006,39,0,30.0
+b1e2a3b4-b1c2-3456-5678-9012345678pq,2024-04-28,12:00,14:30,Pamplona,San Sebastián,España,25,80.0,150,9.0,Mercedes-Benz,Citaro,8989YZA,Interurbano,False,Sin Avería,0.0,5,20.0,COND002,35,0,32.0
+c2e3b4c5-c2d3-4567-6789-0123456789qr,2024-04-29,08:30,11:00,Faro,Huelva,Portugal,20,120.0,150,15.0,Setra,S 515 Hd,0101BCD,Internacional,False,Sin Avería,0.0,4,30.0,COND003,52,0,48.0
+d3e4c5d6-d3e4-5678-7890-1234567890rs,2024-04-30,10:00,13:00,Casablanca,Marrakech,Marruecos,32,240.0,180,20.0,Iveco,Evadys,2323EFG,Interurbano,False,Sin Avería,0.0,5,55.0,COND008,43,0,80.0
+e4e5d6e7-e4f5-6789-8901-2345678901st,2024-05-01,09:00,12:00,Madrid,Salamanca,España,30,210.0,180,18.0,Man,Lion'S Coach,4545HIJ,Interurbano,False,Sin Avería,0.0,4,50.0,COND001,48,0,70.0
+f5e6d7e8-f5a6-7890-9012-3456789012tu,2024-05-02,11:00,13:30,Braga,Viana Do Castelo,Portugal,25,60.0,150,7.0,Scania,Citywide,6767KLM,Urbano,False,Sin Avería,0.0,5,15.0,COND005,55,0,24.0
+0a1e2b3c-a6b7-8901-abcd-ef01234567uv,2024-05-03,08:00,11:00,Casablanca,El Jadida,Marruecos,30,100.0,180,8.0,Yutong,Zk6122H9,8989NNO,Urbano,False,Sin Avería,0.0,4,20.0,COND006,39,0,33.333333333333336
+1b2e3c4d-b7c8-9012-bcde-f012345678vw,2024-05-04,13:00,15:45,Valencia,Madrid,España,48,357.2,285,25.5,Mercedes-Benz,Tourismo,0101PQR,Interurbano,False,Sin Avería,0.0,3,85.3,COND001,48,0,75.2
+2c3e4d5e-c8d9-0123-cdef-0123456789wx,2024-05-05,09:00,12:00,Oporto,Lisboa,Portugal,35,313.9,180,22.0,Man,Lion'S Coach,2323STU,Interurbano,False,Sin Avería,0.0,5,70.0,COND005,55,0,104.63333333333333
+3d4e5f6a-d9e0-1234-def0-1234567890xy,2024-05-06,10:00,14:00,Rabat,Tanger,Marruecos,28,230.0,240,20.0,King Long,6127,4545VWX,Interurbano,True,Rueda desinflada,80.0,3,55.0,COND006,39,0,57.5
+4e5f6a7b-e0f1-2345-ef01-2345678901yz,2024-05-07,14:00,16:00,Sevilla,Cádiz,España,30,120.0,120,12.0,Irizar,I6S,6767YZA,Interurbano,False,Sin Avería,0.0,5,30.0,COND009,50,0,60.0
+5f6a7b8c-f1a2-3456-f012-3456789012za,2024-05-08,08:30,12:00,Lisboa,Albufeira,Portugal,22,250.0,210,20.0,Setra,S 516 Hd/2,8989BCD,Interurbano,False,Sin Avería,0.0,4,60.0,COND003,52,0,71.42857142857143
+6a7b8c9d-a2b3-4567-0123-4567890123ab,2024-05-09,10:00,12:30,Fez,Meknes,Marruecos,25,60.0,150,7.0,Iveco,Daily,0101EFG,Urbano,False,Sin Avería,0.0,5,15.0,COND008,43,0,24.0
+7b8c9d0e-b3c4-5678-1234-5678901234bc,2024-05-10,07:00,11:00,Madrid,Bilbao,España,40,400.0,240,30.0,Mercedes-Benz,Tourismo,2323HIJ,Interurbano,False,Sin Avería,0.0,4,90.0,COND001,48,0,100.0
+8c9d0e1f-c4d5-6789-2345-6789012345cd,2024-05-11,15:00,17:30,Porto,Braga,Portugal,28,55.0,150,8.0,Scania,Citywide,4545KLM,Urbano,False,Sin Avería,0.0,5,15.0,COND005,55,0,22.0
+9d0e1f2a-d5e6-7890-3456-7890123456de,2024-05-12,09:00,13:00,Tanger,Casablanca,Marruecos,35,300.0,240,28.0,King Long,6127,6767NNO,Interurbano,False,Sin Avería,0.0,4,70.0,COND006,39,0,75.0
+a0e1f2a3-e6f7-8901-4567-8901234567ef,2024-05-13,10:00,11:30,Zaragoza,Huesca,España,20,70.0,90,8.0,Irizar,I4,8989PQR,Interurbano,False,Sin Avería,0.0,5,18.0,COND002,35,0,46.666666666666664
+b1e2a3b4-f7a8-9012-5678-9012345678fg,2024-05-14,13:00,17:00,Lisboa,Barcelona,Portugal,27,1000.0,240,70.0,Volvo,9900,0101STU,Internacional,False,Sin Avería,0.0,4,220.0,COND010,46,0,250.0
+c2e3b4c5-a8b9-0123-6789-0123456789gh,2024-05-15,08:00,10:30,Marrakech,Agadir,Marruecos,30,250.0,150,20.0,Iveco,Evadys,2323VWX,Interurbano,False,Sin Avería,0.0,5,60.0,COND008,43,0,100.0
+d3e4c5d6-b9c0-1234-7890-1234567890hi,2024-05-16,11:00,13:00,Madrid,Segovia,España,25,90.0,120,10.0,Setra,S 515 Hd,4545YZA,Interurbano,False,Sin Avería,0.0,4,22.0,COND009,50,0,45.0
+e4e5d6e7-c0d1-2345-8901-2345678901ij,2024-05-17,09:00,11:30,Faro,Lisboa,Portugal,30,280.0,150,21.0,Man,Lion'S Coach,6767BCD,Interurbano,False,Sin Avería,0.0,5,65.0,COND005,55,0,112.0
+f5e6d7e8-d1e2-3456-9012-3456789012jk,2024-05-18,14:00,16:00,Tanger,Larache,Marruecos,22,100.0,120,9.0,Yutong,Zk6122H9,8989EFG,Urbano,False,Sin Avería,0.0,4,25.0,COND006,39,0,50.0
+0a1e2b3c-e2f3-4567-abcd-ef01234567kl,2024-05-19,10:00,14:00,Barcelona,Valencia,España,45,350.0,240,25.0,Mercedes-Benz,Tourismo,0101HIJ,Interurbano,False,Sin Avería,0.0,5,80.0,COND001,48,0,87.5
+1b2e3c4d-f3a4-5678-bcde-f012345678lm,2024-05-20,07:00,10:00,Coimbra,Lisboa,Portugal,32,200.0,180,17.5,Man,Lion'S Intercity,2323KLM,Interurbano,False,Sin Avería,0.0,4,50.0,COND005,55,0,66.66666666666667
+2c3e4d5e-a4b5-6789-cdef-0123456789mn,2024-05-21,11:00,13:30,Agadir,Marrakech,Marruecos,35,250.0,150,20.0,Iveco,Evadys,4545NNO,Interurbano,False,Sin Avería,0.0,5,60.0,COND008,43,0,100.0
+3d4e5f6a-b5c6-7890-def0-1234567890no,2024-05-22,09:00,11:00,Madrid,Ávila,España,20,100.0,120,11.0,Setra,S 515 Hd,6767PQR,Interurbano,False,Sin Avería,0.0,4,25.0,COND009,50,0,50.0
+4e5f6a7b-c6d7-8901-ef01-2345678901op,2024-05-23,07:00,12:00,Lisboa,París,Portugal,25,1700.0,300,90.0,Volvo,9900,8989STU,Internacional,False,Sin Avería,0.0,5,380.0,COND010,46,0,340.0
+5f6a7b8c-d7e8-9012-f012-3456789012pq,2024-05-24,10:00,12:30,Tetuán,Tanger,Marruecos,18,60.0,150,7.0,King Long,6127,0101VWX,Urbano,False,Sin Avería,0.0,4,15.0,COND004,40,0,24.0
+6a7b8c9d-e8f9-0123-0123-4567890123qr,2024-05-25,11:00,13:30,Valencia,Murcia,España,30,210.0,150,18.0,Irizar,I6S,2323YZA,Interurbano,False,Sin Avería,0.0,5,50.0,COND007,30,0,84.0
+7b8c9d0e-f9a0-1234-1234-5678901234rs,2024-05-26,08:00,12:00,Lisboa,Faro,Portugal,30,280.0,240,21.0,Mercedes-Benz,Tourismo,4545BCD,Interurbano,False,Sin Avería,0.0,4,65.0,COND005,55,0,70.0
+8c9d0e1f-a0b1-2345-2345-6789012345st,2024-05-27,13:00,15:30,Marrakech,Casablanca,Marruecos,37,240.0,150,20.0,King Long,6127,6767EFG,Interurbano,False,Sin Avería,0.0,5,55.0,COND006,39,0,96.0
+9d0e1f2a-b1c2-3456-3456-7890123456tu,2024-05-28,09:30,14:00,Madrid,Sevilla,España,50,530.0,270,40.0,Setra,S 516 Hd/2,8989HIJ,Interurbano,False,Sin Avería,0.0,4,120.0,COND001,48,0,117.77777777777777
+a0e1f2a3-c2d3-4567-4567-8901234567uv,2024-05-29,10:00,12:30,Lisboa,Porto,Portugal,30,313.9,150,22.0,Man,Lion'S Coach,0101KLM,Interurbano,False,Sin Avería,0.0,5,70.0,COND005,55,0,125.55999999999999
