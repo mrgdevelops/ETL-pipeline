@@ -8,8 +8,8 @@ Pipeline ETL (Extract, Transform, Load) en Google Cloud.
 
     Propósito:
 
-Realizar proceso ETL completo: extracción, transformación y carga de datos en Google Cloud Platform (GCP) utilizando dataset "transportation_data.json" de datos sintéticos.
-Asimismo con la presente descripción se mustra que el proyecto queda bien documentado, con explicaciones paso por paso de su lógica interna y servicios / tecnologías utilizadas.
+Realizar proceso ETL completo: extracción, transformación y carga de datos en Google Cloud Platform (GCP) utilizando dataset "transportation_data.json" de datos sintéticos generados por GenAI utilizando las técnicas de prompt engineering.
+Asimismo con la presente descripción se muestra que el proyecto queda bien documentado, con explicaciones paso por paso de su lógica interna y servicios / tecnologías utilizadas.
 
     Pre-requisitos:
 
@@ -29,18 +29,22 @@ Asimismo con la presente descripción se mustra que el proyecto queda bien docum
 
     • Google Cloud Storage (GCS) - Data Lake:
 
-Propósito: Sirve como la capa de almacenamiento para nuestros datos brutos (transportation_data.json) y también como el destino para los datos transformados (en formato CSV). Es un almacenamiento de objetos escalable y de bajo costo.
-Fase: Extract (origen) y Load (destino final para datos limpios).
+Propósito: Sirve como el punto de carga y la capa de almacenamiento para nuestros datos brutos (transportation_data.json) y también como el destino para los datos transformados (ya en formato CSV). Es un almacenamiento de objetos (BLOB) escalable y de bajo costo.
+Fase: EXTRACT (origen) y LOAD (destino final para datos limpios).
 
     • Cloud Functions:
 
-Propósito: Actua como el motor de la fase de Transformación (T). Una función serverless que se activará automáticamente cuando se suba un nuevo archivo JSON a Cloud Storage. Ejecutará el código de Python (o Node.js, etc.) para realizar las transformaciones.
-Fase: Transform (T).
+Propósito: Actua como el motor de la fase de Transformación (TRANSFORM). Una función serverless que se activa automáticamente cuando se sube un nuevo archivo JSON al bucket de Cloud Storage. Ejecuta el código Python para realizar las transformaciones.
+Fase: TRANSFORM.
 
-    • BigQuery (Warehouse):
+    • BigQuery (GCP's serverless Warehouse):
 
 Propósito: El destino final de datos limpios y transformados, listos para análisis y visualización. Es un data warehouse serverless, escalable y muy rápido para consultas SQL.
-Fase: Load (L).
+Fase: LOAD
+
+Tecnologías / servicios utilizados:
+
+    • Google Cloud Storage (OBJECT storage, nuestro Data Lake para almacenar tanto datos en crudo como transformados)
 
     • Python, pandas (lógica de Cloud Functions y traqnsformación de datos)
 
@@ -127,5 +131,5 @@ v
 
 Serverless: No es necesario gestionar servidores. GCP se encarga de la infraestructura.
 Escalable: Cloud Storage y BigQuery escalan automáticamente. Cloud Functions escala según la demanda.
-Costo-efectivo: Pagas solo por el almacenamiento, la ejecución de la función y los datos procesados/almacenados en BigQuery. Para un archivo de 200 filas, los costos serán mínimos, casi despreciables. Es más, este proyecto en concreto utiliza Free Tier de GCP, con lo que es EXTREMELY cost-effective ;)
+Costo-efectivo: Pagas solo por el almacenamiento, la ejecución de la función y los datos procesados/almacenados en BigQuery. Para un archivo de 200 filas, los costos serán mínimos, casi despreciables. Es más, este proyecto en concreto utiliza Free Tier de GCP, con lo que es EXTREMELY cost-effective :)
 Sencillez: La lógica ETL se concentra en un único script dentro de la Cloud Function.
